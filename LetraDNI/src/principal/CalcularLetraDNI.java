@@ -13,6 +13,6 @@ public class CalcularLetraDNI {
 	}
     public static String obtenerDNIyLetra(String dniSinLetra){
         int resto = Integer.valueOf(dniSinLetra) % 23;
-        return dniSinLetra+letras[resto + 1];
+        return dniSinLetra+letras[resto];
     }
 }
